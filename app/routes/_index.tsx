@@ -1,23 +1,19 @@
-import type { MetaFunction } from "@remix-run/node";
+import type { MetaFunction } from '@remix-run/node';
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Stickerbook" },
-    { name: "description", content: "View your assets and see the collection percentage." },
+    { title: 'Stickerbook' },
+    { name: 'description', content: 'View your assets and see the collection percentage.' },
   ];
 };
 
 export default function Index() {
   return (
-    <section style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
+    <section style={{ fontFamily: 'system-ui, sans-serif', lineHeight: '1.8' }}>
       <h1>Home</h1>
       <ul>
         <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/blog"
-            rel="noreferrer"
-          >
+          <a target="_blank" href="https://remix.run/tutorials/blog" rel="noreferrer">
             15m Quickstart Blog Tutorial
           </a>
         </li>
