@@ -23,6 +23,10 @@ export default function App() {
         <Links />
       </head>
       <body>
+        <header>
+          <h1>Stickerbook</h1>
+        </header>
+
         <Outlet />
         <ScrollRestoration />
         <Scripts />

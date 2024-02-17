@@ -2,15 +2,15 @@ import type { MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "Stickerbook" },
+    { name: "description", content: "View your assets and see the collection percentage." },
   ];
 };
 
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-      <h1>Welcome to Remix</h1>
+    <section style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
+      <h1>Home</h1>
       <ul>
         <li>
           <a
@@ -21,21 +21,7 @@ export default function Index() {
             15m Quickstart Blog Tutorial
           </a>
         </li>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/jokes"
-            rel="noreferrer"
-          >
-            Deep Dive Jokes App Tutorial
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
-            Remix Docs
-          </a>
-        </li>
       </ul>
-    </div>
+    </section>
   );
 }
