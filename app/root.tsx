@@ -20,7 +20,7 @@ export default function App() {
       </head>
       <body>
         <header>
-          <h1 className="text-3xl font-bold">Stickerbook</h1>
+          <h1 className="text-3xl font-bold">TODO: Your app title</h1>
         </header>
 
         <Outlet />
